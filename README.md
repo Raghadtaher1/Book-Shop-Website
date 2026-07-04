@@ -1,4 +1,4 @@
-# Volumw One Book-Shop-Website
+# Volume One Book-Shop-Website
 A complete, multi-page book store website that allows users to browse through books, explore their features, and get in touch with the store administration. This project was developed to practice fundamental web development and design skills.
 ## 🚀 Key Features
 * **Home Page:** A welcoming landing page featuring the bookstore's brand logo, a background banner, and a basic form to gather essential visitor information.
