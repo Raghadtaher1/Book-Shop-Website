@@ -1,0 +1,157 @@
+sbody {
+  background-color: lightblue;
+}
+       
+    
+        .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 30px;
+    margin: 50px; 
+}
+
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-item img {
+width: 70px; 
+height: 70px; 
+object-fit: cover; 
+border-radius: 5px; 
+}
+
+
+
+.product-details {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+}
+
+.discount {
+    font-size: 14px;
+    color: green;
+}
+.center-content {
+    grid-column: span 2; 
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.center-content select, 
+.center-content button {
+    margin: 30 ;
+    padding: 30;
+    font-size: 16px;
+}
+
+.box {
+background-color: aliceblue;
+padding: 30;
+text-align: center;
+font-weight: bold;
+border: 2px solid #ddd;
+margin-bottom: 10px;width:40 ;
+}
+.book-pair {
+
+display: flex;
+justify-content: space-between;
+padding: 20px;
+border: 2px solid #ddd;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book {
+width: 160%;
+text-align: center;
+}
+
+.book img {
+width: 50%;
+height: auto;
+border-radius: 5px;
+}
+
+.book h2 {
+font-size: 1em;
+margin: 5px 0;
+}
+
+.book p {
+font-size: 1em;
+color:black;
+}
+
+.book span {
+color: red;
+font-weight: bold;
+display: block;
+margin-top: 10px;
+font-size: 1.2em;
+}
+body{
+padding:30;
+margin: 50;
+}
+
+.topnav {
+background-color: #333333;
+overflow: hidden;
+}
+
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+.topnav a:hover {
+background-color: aliceblue;
+color: black;
+}
+
+.topnav a.active{
+background-color:cornflowerblue;
+color: white;
+
+}
+.topnav a.focus{
+    background-color:aliceblue;
+    color: black;
+}
+  
+  
+  .product-card h3, .product-card p {
+    color: black; 
+    transition: color 0.3s; 
+}
